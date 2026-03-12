@@ -118,7 +118,7 @@ func fetchDomainsFromBlocklist(url string) ([]string, error) {
 	var domains []string
 	scanner := bufio.NewScanner(resp.Body)
 	for scanner.Scan() {
-		line := scanner.Text()
+		line := strings.TrimSpace(scanner.Text())
 		if strings.HasPrefix(line, "#") || line == "" {
 			// Skip comments and empty lines
 			continue
