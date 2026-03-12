@@ -2,10 +2,10 @@
 
 An open source proxy server (supports SSL filtering / MITM) + DNS Server with a nice frontend.
 
-![Codecov](https://codecov.io/gh/fifthsegment/Gatesentry/branch/master/graph/badge.svg)
+![Codecov](https://codecov.io/gh/Denisss025/Gatesentry/branch/master/graph/badge.svg)
 
 
-[Download the latest release](https://github.com/fifthsegment/Gatesentry/releases)
+[Download the latest release](https://github.com/Denisss025/Gatesentry/releases)
 
 Usages:
 
@@ -23,7 +23,7 @@ Usages:
 
 - Custom Redirects (via DNS): Redirect specific URLs to other addresses, useful for local development or for redirecting deprecated domains.
 
-![gatesentry-repo](https://github.com/fifthsegment/Gatesentry/assets/5513549/5ab836ab-7362-4916-9f7c-655e67e4deab)
+![gatesentry-repo](https://github.com/Denisss025/Gatesentry/assets/5513549/5ab836ab-7362-4916-9f7c-655e67e4deab)
 
 ## Getting started
 
@@ -31,7 +31,7 @@ There are 2 ways to run Gatesentry, either using the docker image or using the s
 
 ### Method 1: Using Docker
 
-1. Use the [docker-compose.yml](https://github.com/fifthsegment/Gatesentry/blob/master/docker-compose.yml) file from the root of this repo as a template, copy and paste it to any directory on your computer, then run the following command in a terminal `docker compose up`
+1. Use the [docker-compose.yml](https://github.com/Denisss025/Gatesentry/blob/master/docker-compose.yml) file from the root of this repo as a template, copy and paste it to any directory on your computer, then run the following command in a terminal `docker compose up`
 
 ### Method 2: Using the Gatesentry binary directly
 
